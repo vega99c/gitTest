@@ -1,0 +1,14 @@
+{'name': '비즈니스', 'app_label': 'business', 'app_url': '/admin/business/', 'has_module_perms': True, 'models': 
+
+{'name': '회사 목록', 'object_name':        'Company',      'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'business', 'view_only': False, 'admin_url': '/admin/business/company/', 'add_url': '/admin/business/company/add/'}, 
+{'name': '거래처 목록', 'object_name':      'Partner',      'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'group_work', 'view_only': False, 'admin_url': '/admin/business/partner/', 'add_url': '/admin/business/partner/add/'}, 
+{'name': '작가 목록', 'object_name':        'Author',       'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'group', 'view_only': False, 'admin_url': '/admin/business/author/', 'add_url': '/admin/business/author/add/'}, 
+{'name': '작가 정산 목록', 'object_name': AuthorSettlement','perms': {'add': False, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': None, 'view_only': False, 'admin_url': '/admin/business/authorsettlement/'}, 
+{'name': '작품 목록', 'object_name':        'Product',      'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'library_books', 'view_only': False, 'admin_url': '/admin/business/product/', 'add_url': '/admin/business/product/add/'}, 
+{'name': '작품 마이그레이션','object_name':'ProductMigrate','perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'file_download', 'view_only': False, 'admin_url': '/admin/business/productmigrate/', 'add_url': '/admin/business/productmigrate/add/'}, 
+{'name': '대용량 업로드 목록', 'object_name':'Bulk',        'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'cloud_upload', 'view_only': False, 'admin_url': '/admin/business/bulk/', 'add_url': '/admin/business/bulk/add/'}, 
+{'name': '어드민 유저 ', 'object_name':      'Test',        'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'cloud_download', 'view_only': False, 'admin_url': '/admin/business/test/', 'add_url': '/admin/business/test/add/'}], 'icon': 'business'}, 
+
+'account': {'name': '[APP] Account', 'app_label': 'account', 'app_url': '/admin/account/', 'has_module_perms': True, 'models': 
+
+{'name': '계정 리스트', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True, 'view': True}, 'proxy': False, 'count': None, 'icon': 'supervisor_account', 'view_only': False, 'admin_url': '/admin/account/user/', 'add_url': '/admin/account/user/add/'}], 'icon': None}}
